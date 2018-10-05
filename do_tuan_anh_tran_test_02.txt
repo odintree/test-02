@@ -1,0 +1,27 @@
+GIT TASK: 
+
+6. 
+echo "Test Assignment # 2" >> README.md 
+echo "**do tuan anh tran**" >> README.md
+git add . 
+git commit -m 'message'
+git push
+
+7. 
+git add top_football_players
+git commit -m 'message'
+git push
+git checkout -b 2017-2018
+echo "Ronaldo" > top_football_players
+echo "Messi" >> top_football_players
+echo "Modric" >> top_football_players
+git commit -m 'message'
+git push
+
+8. 
+echo "*~" >> .gitignore
+echo "*tmp*" >> .gitignore
+
+9. 
+git log | grep -P "^commit" | wc -l
+5
