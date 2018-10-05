@@ -24,4 +24,9 @@ echo "*tmp*" >> .gitignore
 
 9. 
 git log | grep -P "^commit" | wc -l
-5
+5 commits 
+
+10. 
+Once we *git add* two diffetent version of the file "file.txt" in two different branches when we use *git merge 2017-2018" from master branch we will have the conflict. 
+To solve this conflict we need to check the conflict file using text editor. Look for the text between <<<<<<< HEAD and ======= and choose the version you need.
+ 
